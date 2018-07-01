@@ -1,0 +1,234 @@
+		#logo h1{
+			color: black;
+      cursor: pointer;
+
+		}
+
+		nav > ul > li > a{
+
+			color: black;
+		}
+
+header {
+  background: white none repeat scroll 0 0;
+  box-shadow: .5px 1px 20px rgba(128, 128, 128, 0.5);
+  height: 6.5em;
+}
+
+#menu {
+  margin-top: 20px;
+}
+
+	.inner-head {
+  background-color: rgba(248, 248, 248, 1);
+  background-image: url("../images/contact-page-header.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #eaeaea;
+  display: block;
+  margin-bottom: 0;
+  padding: 60px 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+
+.inner-head h1, .inner-head h2, .inner-head h3, .inner-head h4, .inner-head h5, .inner-head h6 {
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+
+
+
+.breadcrumb {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  list-style: outside none none;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+
+.inner-head .breadcrumb {
+  margin-bottom: 0;
+}
+
+.inner-head h1 span, .inner-head h2 span, .inner-head h3 span, .inner-head h4 span, .inner-head h5 span, .inner-head h6 span {
+  color: rgb(166, 131, 99);
+  font-weight: 300;
+}
+
+.inner-head .breadcrumb {
+  margin-bottom: 0;
+}
+
+.breadcrumb > li {
+  font-size: 16px;
+}
+
+.breadcrumb > li > a{
+
+  color: gray;
+}
+
+
+.breadcrumb > li + li::before {
+  content: "| ";
+  color: rgb(166, 131, 99);
+}
+.breadcrumb > .active {
+  color: rgb(166, 131, 99);
+}
+
+
+
+
+
+/*---------sec-02--------*/
+.padding-bot70 {
+  padding-bottom: 70px !important;
+}
+
+.contain-wrapp {
+  padding: 80px 0;
+  position: relative;
+}
+
+.title-head::before {
+  background: #cecece none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+
+
+.title-head::after {
+  bottom: -1px;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 0;
+  position: absolute;
+  width: 60px;
+}
+
+.title-head {
+  color: #333333;
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  margin-bottom: 40px;
+  padding: 0 0 10px;
+  position: relative;
+  width: 100%;
+}
+
+.title-head h4 {
+  font-size: 24px;
+  line-height: 14px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: rgb(166,131,99);
+  font-family: lato;
+  font-weight: bold;
+}
+
+.title-head p{
+
+font-family: latolight;
+
+}
+
+.title-head p>a {
+  color: rgb(166, 131, 99);
+  text-decoration: none;
+}
+
+
+
+a, a:active, a:focus, a:hover {
+  outline: medium none;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.input-lg, select.input-lg, textares.input-lg {
+  height: 62px;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+  border: 1px solid #c1c1c1;
+  border-radius: 2px;
+  color: #616161;
+  font-size: 13px;
+  font-style: italic;
+  height: 46px;
+  padding: 10px 15px;
+}
+
+.form-control::-moz-placeholder {
+  color: #b6b6b6;
+  opacity: 1;
+}
+
+
+
+.submit-message {
+  background: rgba(33, 54, 109, 0.92) none repeat scroll 0 0;
+  border: medium none;
+  color: white;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.list-unstyled li {
+  padding-bottom: 20px;
+}
+.list-unstyled li > i {
+  color: rgb(166, 131, 99);
+  font-size: 22px;
+}
+.list-unstyled li > h6, .form-group>h6 {
+  font-size: 22px;
+  font-family: latolight;
+}
+.list-unstyled li > p {
+  font-family: latolight;
+  font-size: 16px;
+}
+
+
+.contact-detail {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #d5d5d5;
+  border-radius: 2px;
+  display: block;
+  padding: 29px 0 0 40px;
+  position: relative;
+}
+
+
+.contact-sparator {
+  background: rgba(0, 0, 0, 0) url("../images/contact-bg.png") no-repeat scroll right top;
+  display: block;
+  height: 68px;
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  width: 100%;
+}
+
+.contact-detail ul {
+  position: relative;
+  z-index: 3;
+}

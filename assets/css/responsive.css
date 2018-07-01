@@ -1,0 +1,108 @@
+/*-------------desktop---------*/
+@media screen and (min-width: 992px){
+.navbar-right li a {
+  color: #fff;
+  margin: 1.5em 0.4em;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+
+.navbar-right li a:hover, .left-button:hover, .right-button:hover{
+  cursor: pointer;
+
+}
+
+
+}
+
+
+/*----------tablet--------*/
+@media screen and (max-width: 991px) and (min-width: 768px){
+	.content-3 {
+	  margin: 2em;
+	  padding: 2em;
+	}
+
+.step-1 {
+
+  margin: 0px;
+
+}
+
+.plan-one, .plan-two, .plan-three, .plan-four {
+  margin: 1em 0;
+}
+
+
+}
+
+
+
+
+/*----mobile-*/
+
+@media screen and (max-width: 767px){
+
+#menu {
+  position: relative;
+  top: -50px;
+  width: 100%;
+  z-index: 5;
+}
+.mobile-button {
+  background: rgba(0, 255, 0, 0.4) none repeat scroll 0 0;
+  margin-right: 0px;
+}
+.mobile-ul{
+background: rgba(0, 255, 0, 0.4) none repeat scroll 0 0;
+position: relative;
+top: 0px;
+width: 100%;
+}
+
+ul li{}
+ul li a {
+  color: white;
+  text-align: center;
+}
+
+
+.heading-1 {
+  font-family: latolight;
+  font-size: 2.4em;
+}
+
+.f-head h2 {
+  font-size: 1.5em;
+}
+.f-head p {
+  color: rgba(128, 128, 128, 0.8);
+  font-size: 0.85em;
+}
+
+.content-1, .content-2, .content-3 {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.step-1 {
+
+  margin: 0px;
+
+}
+
+.plan-one, .plan-two, .plan-three, .plan-four {
+  margin: 1em 0;
+}
+
+.widget {
+  background: #fafafa none repeat scroll 0 0;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+  padding: 4em 0em;
+}
+
+}
+
+

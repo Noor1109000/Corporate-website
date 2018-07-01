@@ -1,0 +1,95 @@
+header {
+  background: white none repeat scroll 0 0;
+  box-shadow: .5px 1px 20px rgba(128, 128, 128, 0.5);
+  height: 6.5em;
+}
+
+#logo h1{
+  color: black;
+}
+#menu {
+  margin-top: 20px;
+}
+#menu ul li a{color: black;}
+
+.main-body{
+	padding: 10em 0;
+}
+
+.demo-portfolio-head{
+text-align: center;
+}
+.demo-portfolio-head h1 {
+  color: black;
+  font-size: 4em
+}
+.demo-portfolio-head p {
+  color: rgb(153, 153, 153);
+  font-family: latolight;
+  font-size: 1.3em;
+  font-weight: lighter;
+  margin: 0 auto;
+  width: 80%;
+}
+.demo-portfolio-head span {
+  color: rgba(153, 153, 153, 0.9);
+  font-size: 3.5em;
+  margin: 10px;
+}
+
+.demo-portfolio-body{
+
+}
+.item-01 {
+  border-radius: 61px;
+  font-family: latolight;
+  padding: 2em 0;
+  text-align: center;
+transition: all .5s ease 0s;
+cursor: pointer;
+}
+.item-01 h4 {
+  color: gray;
+  font-size: 2em;
+  font-weight: lighter;
+  padding: 0.4em 0;
+  text-transform: uppercase;
+}
+.inner-image {
+  height: 20em;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+.inner-image img{
+
+	width: 90%;
+  transition: all .5s ease 0s;
+
+}
+
+
+.preview {
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+  color: white;
+  margin: 0 auto;
+  width: 90%;
+  opacity: 0;
+}
+.preview h3 {
+  padding: 0.4em;
+  margin: 5px;
+}
+
+
+.item-01:hover .inner-image img{
+transition: all .5s ease 0s;
+transform: translateY(-35%);
+}
+
+.item-01:hover .preview{
+
+opacity: 1;
+transition: all .5s ease 0s;
+}  
+
